@@ -1,0 +1,20 @@
+body {
+  background: wheat;
+}
+
+.click {
+  background: red;
+  font-family: cursive;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+.click:hover {
+  background: yellow;
+  cursor: pointer;
+}
+.box {
+  margin: 5rem 5rem;
+}
+#counter {
+  color: crimson;
+}
