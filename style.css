@@ -3,16 +3,18 @@ body {
 }
 
 .btn {
-  background: red;
+  background: rgb(136, 101, 41);
   font-family: cursive;
   font-weight: bolder;
   border-radius: 25px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(1, 1, 5, 0.2);
   font-size: 2rem;
   margin: 2rem;
+  padding: 0.75rem;
+  color: aliceblue;
 }
 .btn:hover {
-  background: yellow;
+  background: rgb(80, 138, 137);
   cursor: pointer;
 }
 .btn-container {
