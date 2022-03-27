@@ -1,6 +1,15 @@
 body {
   background: wheat;
 }
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  text-align: center;
+}
 
 .btn {
   background: rgb(136, 101, 41);
@@ -26,4 +35,13 @@ body {
   text-align: center;
   font-size: 10rem;
   margin: 1rem;
+}
+
+h1 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
 }
