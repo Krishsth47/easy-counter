@@ -8,9 +8,10 @@ btns.forEach((btn) => {
     const btns = e.currentTarget.classList;
     if (btns.contains("increase")) {
       totalClicks++;
-    }
-    if (btns.contains("decrease")) {
+    } else if (btns.contains("decrease")) {
       totalClicks--;
+    } else {
+      totalClicks = 0;
     }
     counter.innerText = totalClicks;
   });
