@@ -13,6 +13,16 @@ btns.forEach((btn) => {
     } else {
       totalClicks = 0;
     }
+
+    if (totalClicks > 0) {
+      counter.style.color = "green";
+    }
+    if (totalClicks < 0) {
+      counter.style.color = "red";
+    }
+    if (totalClicks == 0) {
+      counter.style.color = "black";
+    }
     counter.innerText = totalClicks;
   });
 });
