@@ -7,3 +7,4 @@ click.addEventListener("click", () => {
   totalClicks++;
   counter.innerText = totalClicks;
 });
+ 
